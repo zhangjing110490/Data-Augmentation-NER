@@ -1,4 +1,4 @@
-# Data Augmentation used in NER (Named Entity Recognition) task.
+# Data Augmentation in NER (Named Entity Recognition) task.
 
 ## Table of Contents
 
