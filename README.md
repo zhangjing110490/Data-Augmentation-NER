@@ -26,12 +26,13 @@ Currently, we provide pre-processing steps including:
 2. Put source files in corresponding folders
 3. Specify parameters like seed... 
 4. Execute command like:
-python DataProcessor.py --data_file "Data/..." --save_path "Data/..."
+python DataAugmentor.py --data_file "Data/..." --save_path "Data/..."
 5. You can add your own augmentation steps into this project
 
 ## Notes
 1. This script is used only in NER task, to preprocess the train/dev/test data.
 2. The data files should be in json format, an example is as:
+```yaml
 [
   {
     "text": "（5）房室结消融和起搏器植入作为反复发作或难治性心房内折返性心动过速的替代疗法。",
